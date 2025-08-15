@@ -68,7 +68,7 @@ let a = 0;
 
     // for - of
 
-let marcas = ['sushi gabanna', 'mike', 'niguala', 'daniels', 'ardidas', 'arturo anden'];
+let marcas = ['sushi guayaba', 'mike', 'niguala', 'daniels', 'ardidas', 'arturo anden'];
 
 for (let marca of marcas) {
     console.log(typeof marca);
@@ -86,7 +86,14 @@ for (let clave in camper) {
 }
 
 
+for (let marca of marcas) {
+    if(marca == "niguala") {
+        //continue;
+    }
 
+    console.log('La marca es ${marca}');
+    
+}
 
 
 
