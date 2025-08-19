@@ -97,6 +97,23 @@ for (let marca of marcas) {
 
 
 
+// CLEAR
+
+console.clear();
+
+// Estructura try - catch --- finaly
+try {
+    let resultado = new Array(-1);
+    console.log (resultado);
+
+} catch(error) {
+    console.log (`Se produjo un error en: $(error)`);
+
+} finally {
+    console.log (`Siempre me ejecuto!`);
+}
+
+console.log(`Continuacion del flujo de la aplicacion`);
 
 
 
